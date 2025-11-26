@@ -1,10 +1,9 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-	name: edison
-	labels:
-		name: edison
-
+  name: edison
+  labels:
+    name: edison
 # Uso:
 #  Aplicar con: kubectl apply -f namespace.yaml
 #  Borrar con: kubectl delete namespace mi-namespace
